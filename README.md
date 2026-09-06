@@ -142,6 +142,19 @@ FPS: 0.1 - 60
 DELAY_MS: 1 - 60_000
 ```
 
+## Video to PGM converter
+
+Helper script to generate PGM frames.
+Requires:
+Python: numpy, pillow
+FFmpeg installed + ffmpeg and ffprobe added to PATH
+
+Usage:
+
+```sh
+python video-to-pgm.py video.mp4 generated_frames --fps 1
+```
+
 ---
 
 # 3. Important Operational Notes
