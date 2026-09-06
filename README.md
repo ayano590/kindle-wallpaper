@@ -145,8 +145,11 @@ DELAY_MS: 1 - 60_000
 ## Video to PGM converter
 
 Helper script to generate PGM frames.
+
 Requires:
+
 Python: numpy, pillow
+
 FFmpeg installed + ffmpeg and ffprobe added to PATH
 
 Usage:
