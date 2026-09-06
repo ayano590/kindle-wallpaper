@@ -1,0 +1,31 @@
+=====================================
+ Kindle Animation Controller
+=====================================
+Frame delay: 250 ms
+Frames found: 5
+  1: /mnt/us/extensions/animation-test/frames/frame1.pgm
+  2: /mnt/us/extensions/animation-test/frames/frame2.pgm
+  3: /mnt/us/extensions/animation-test/frames/frame3.pgm
+  4: /mnt/us/extensions/animation-test/frames/frame4.pgm
+  5: /mnt/us/extensions/animation-test/frames/frame5.pgm
+[FBInk] Detected a Kindle PaperWhite 3 (0G1 -> 0x201 => Muscat on Wario)
+[FBInk] Clock tick frequency appears to be 100 Hz
+[FBInk] Screen density set to 300 dpi
+[FBInk] Variable fb info: 1072x1448, 8bpp @ rotation: 3 (Counter Clockwise, 270°)
+[FBInk] Fixed fb info: ID is "mxc_epdc_fb", length of fb mem: 6782976 bytes & line length: 1088 bytes
+[FBInk] Fontsize set to 24x24 (IBM base glyph size: 8x8)
+[FBInk] Line length: 44 cols, Page size: 60 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 4 pixels
+[FBInk] Framebuffer pixel format: Y8
+[FBInk] Pen colors set to #000000 for the foreground and #FFFFFF for the background
+Saved framebuffer: 6782976 bytes
+Animation started.
+Animation started.
+Touch detected. Stopping.
+Touch detected. Stopping.
+Animation exiting.
+Animation exiting.
+Restoring original framebuffer.
+Restoring original framebuffer.
+Animation stopped.
+Animation stopped.
