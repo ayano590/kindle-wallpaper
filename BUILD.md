@@ -109,6 +109,7 @@ arm-kindlepw2-linux-gnueabi-gcc \
     kindle-wallpaper.c \
     -o kindle-wallpaper \
     -ldl
+    -lrt
 ```
 
 The exact FBInk include path should point at the `fbink.h` belonging to the same FBInk version used to build `libfbink.so.1.0.0`.
@@ -120,6 +121,8 @@ dlopen()
 dlsym()
 dlclose()
 ```
+
+The `-lrt` option is required for old Kindle PW2 toolchains because `clock_gettime()` lives in `librt`.
 
 ---
 
