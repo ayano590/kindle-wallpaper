@@ -145,6 +145,8 @@ DELAY_MS: 1 - 60_000
 ## Video to PGM converter
 
 Helper script to generate PGM frames.
+Set grayscale levels and optionally Floyd-Steinberg dithering.
+Recommended to use low grayscale levels to avoid frame update issues.
 
 Requires:
 
@@ -155,7 +157,7 @@ FFmpeg installed + ffmpeg and ffprobe added to PATH
 Usage:
 
 ```sh
-python video-to-pgm.py video.mp4 generated_frames --fps 1
+python video-to-pgm.py video.mp4 generated_frames --fps 1 --levels 2 --dither
 ```
 
 ---
